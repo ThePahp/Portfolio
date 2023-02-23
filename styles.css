@@ -1,0 +1,15 @@
+h1 {  
+    color: red;  
+}
+
+h2 {  
+    color: rgb(90, 84, 179);  
+}
+
+.test-class {
+    color:rgb(18, 203, 40)
+}
+
+#about-me {
+    font-size: 20px
+}
