@@ -1,3 +1,7 @@
+
+
+/* SIMPLE SELECTORS
+
 h1 {  
     color: red;  
 }
@@ -6,10 +10,66 @@ h2 {
     color: rgb(90, 84, 179);  
 }
 
+class selector
 .test-class {
     color:rgb(18, 203, 40)
 }
 
-#about-me {
+id selector
+#about-me {  
     font-size: 20px
 }
+
+*/
+
+/* COMBINATOR SELECTORS
+
+desecendent selector
+.my-class h3 {
+    color: blue;
+}
+
+child selector
+.my-class > p {
+    color: red
+}
+
+adjacent sibling selector
+p + img {
+    height: 140px;
+}
+
+general sibling selector
+h3 + img {
+    height: 140px;
+}
+*/
+
+/* Pseudo-Class Selectors (few popular ones) */
+/* :hover, :active, :visited, :checked */
+
+/* :checked 
+#box:checked {
+    outline: 3px solid green
+}
+
+#box:checked + label {
+    outline: 3px solid green
+}
+*/
+
+/* :hover
+#socials p :hover {
+    color:aqua;
+    font-size: 20px;
+}
+*/
+
+/* :disbabled */
+#socials  :disabled {
+     color: blueviolet
+     background-color:blue 
+}
+
+
+
