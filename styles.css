@@ -65,11 +65,21 @@ h3 + img {
 }
 */
 
-/* :disbabled */
-#socials  :disabled {
+/* :disbabled 
+#socials :disabled {
      color: blueviolet
-     background-color:blue 
-}
+    }
+*/
 
+/* :disbabled 
+#socials :disabled {
+     color: blueviolet
+    }
+*/
 
+/* :visited - only applies to <a> and <area> elements with href attribute
+a :visited {
+    color: rgb(255, 0, 81)
+   }
+*/
 
