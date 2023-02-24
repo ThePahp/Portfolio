@@ -83,3 +83,23 @@ a :visited {
    }
 */
 
+
+/* PSEUDO-ELEMENT SELECTORS
+
+.my-class > p::first-letter {
+    color: red;
+}
+
+.my-class > p:: after {
+   content: "";
+   background-color: palegoldenrod;
+   height: 20px;
+   width: 50%;
+   position: absolute;
+   left: 20px;
+   z-index: -1;}
+
+*/
+
+
+
