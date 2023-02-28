@@ -103,3 +103,47 @@ a :visited {
 
 
 
+/* Atrtribute Selectors
+selector [attribute="value"] {}
+
+we have HTML code:
+<div>
+    <a href="facebook.com" data-anchor="social">Facebook</a>
+    <a href="instagram.com" data-anchor="social">Instagram</a>
+    <a href="#top" data-anchor="innerLink">
+</div>
+
+we can target first two with the following CSS:
+a[data-anchor="social"] {}
+*/
+
+/* Specicifity
+
+we have HTML code:
+<h1>Manchester Codes</h1>
+<p id="intro">Established in 2017, 
+we are the original part-time coding school.</p>
+<p>We currently have 2 different courses: 
+Introduction to Programming and Software Engineer FastTrack.<p>
+
+* {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: "Courier New", monospace;
+}
+
+p {
+    color: black;
+}
+
+p#intro {
+    color: yellow;
+}
+
+h1 is more specific than *, so it will take precedence. 
+The same happens for p#intro being more specific than p.
+
+*/
+
